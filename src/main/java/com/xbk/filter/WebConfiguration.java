@@ -22,7 +22,8 @@ import org.springframework.context.annotation.Configuration;
 	        return new RemoteIpFilter();
 	    }
 	    
-	    @Bean
+	    @SuppressWarnings({ "rawtypes", "unchecked" })
+		@Bean
 	    public FilterRegistrationBean testFilterRegistration() {
 
 	        FilterRegistrationBean registration = new FilterRegistrationBean();
