@@ -37,5 +37,4 @@ public class SpringBootTestApplicationRabbitmqTest {
 		topicSender.send2();
 //		fanoutSender.send();
 	}
-
 }
