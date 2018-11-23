@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+	<classPathEntry location="E:\work\resposity\kelan\com\oracle\jdbc\ojdbc6\11.2.0.3\ojdbc6-11.2.0.3.jar" />
+  <context id="context1">
+   <commentGenerator>  
+       <!-- 是否去除自动生成的注释 true：是 ： false:否 -->  
+       <property name="suppressAllComments" value="true" />  
+    </commentGenerator>
+    <jdbcConnection connectionURL="jdbc:oracle:thin:@localhost:1521:ORCL" driverClass="oracle.jdbc.driver.OracleDriver" password="123456" userId="upsdb" />
+    <javaModelGenerator targetPackage="com.xbk.mybatis.model" targetProject="SpringBootTest" />
+    <sqlMapGenerator targetPackage="com.xbk.mybatis.sqlMap" targetProject="SpringBootTest" />
+    <javaClientGenerator targetPackage="com.xbk.mybatis.mapper" targetProject="SpringBootTest" type="XMLMAPPER" />
+    <table schema="" tableName="innerfundtrans">
+    </table>
+    <table schema="" tableName="overalltrans">
+    </table>
+    <table schema="" tableName="innerfundtranshist">
+    </table>
+    <table schema="" tableName="overalltranshist">
+    </table>
+    <table schema="" tableName="innerfundtranshistall">
+    </table>
+    <table schema="" tableName="overalltranshistall">
+    </table>
+    <table schema="" tableName="onlinetrans">
+    </table>
+    <table schema="" tableName="onlinetranshist">
+    </table>
+    <table schema="" tableName="onlinetranshistall">
+    </table>
+    <table schema="" tableName="onlinesubtrans">
+    </table>
+    <table schema="" tableName="onlinesubtranshist">
+    </table>
+    <table schema="" tableName="onlinesubtranshistall">
+    </table>
+  </context>
+</generatorConfiguration>
